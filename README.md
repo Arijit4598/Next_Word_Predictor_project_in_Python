@@ -18,19 +18,11 @@ This can be extended to build autocomplete features, chatbots, or intelligent wr
 
 ## 🛠️ Tech Stack
 - **Python 3**
-- **FastAPI** (for serving predictions)
 - **TensorFlow / Keras** or **PyTorch** (for deep learning models)
-- **NLTK / SpaCy** (for preprocessing)
-- **Uvicorn** (server)
-
 ---
 
 ## 📂 Project Structure
 - Next-Word-Predictor/
 - ├── # Training dataset (text corpus)
 - ├── # Jupyter notebooks for training & experiments
-- │── main.py # FastAPI app entrypoint
-- │── model.h5 # Trained deep learning model
-- │─ tokenizer.pkl # Saved tokenizer
-- ├── requirements.txt # Dependencies
 - └── README.md # Documentation
